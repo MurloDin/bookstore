@@ -1,0 +1,39 @@
+.page-header {
+  text-align: center;
+  &__img {
+    margin-top: 40px;
+    margin-bottom: 40px;
+  }
+  &__img-wrapper {
+    box-shadow: inset 0px 0px 10px 10px rgba(252,225,252, .5);
+  }
+  &__nav {
+    margin-top: 15px;
+    display: flex;
+    justify-content: center;
+    list-style: none;
+  }
+  &__nav-item {
+
+    cursor: pointer;
+    color: rgba(1,1,1,.6);
+    font-weight: bold;
+    font-size: 18px;
+    position: relative;
+    margin: 10px 30px;
+    &:before {
+      position: absolute;
+      content: "";
+      display: block;
+      width: 0;
+      top: -28px;
+      height: 3px;
+      background-color: #9577C2;
+      transition: .3s;
+    }
+    &:hover:before {
+      width: 100%;
+      transition: .5s;
+    }
+  }
+}

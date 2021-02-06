@@ -1,0 +1,31 @@
+{
+  "name": "backend",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "nodemon index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@admin-bro/design-system": "^1.7.0",
+    "@admin-bro/express": "^3.1.0",
+    "@admin-bro/mongoose": "^1.1.0",
+    "@admin-bro/upload": "^1.2.0",
+    "admin-bro": "^3.3.1",
+    "argon2": "^0.27.1",
+    "body-parser": "^1.19.0",
+    "connect-mongo": "^3.2.0",
+    "cors": "^2.8.5",
+    "express": "^4.17.1",
+    "express-formidable": "^1.2.0",
+    "express-session": "^1.17.1",
+    "mongoose": "^5.11.12",
+    "nodemon": "^2.0.7",
+    "react": "^17.0.1",
+    "tslib": "^2.1.0"
+  }
+}

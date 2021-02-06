@@ -1,0 +1,13 @@
+.form-section {
+  text-align: center;
+  height: 640px;
+  &__title {
+    margin-top: 50px;
+    color: rgba(1,1,1,.8);
+    font-size: 60px;
+    font-weight: bold;
+  }
+  &__subtitle {
+    font-size: 30px;
+  }
+}

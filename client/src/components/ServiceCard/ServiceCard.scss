@@ -1,0 +1,38 @@
+.service-card {
+  width: 30%;
+  &:hover {
+    .service-card__img-wrapper {
+      position: relative;
+      &:after {
+        z-index: 100;
+        content: "";
+        display: block;
+        width: 100%;
+        height: 100%;
+        top: 0;
+        position: absolute;
+        background-color: rgba(149, 119, 193, .5);
+      }
+    }
+    .service-card__title {
+      transition: .3s;
+      color: #9577C2;
+    }
+
+  }
+  &__img {
+    z-index: -4;
+    width: 100%;
+    object-fit: cover;
+  }
+
+  &__title {
+    cursor: pointer;
+    z-index: 10001;
+    padding: 30px 0;
+    width: 100%;
+    background-color: white;
+    font-weight: bold;
+    font-size: 30px;
+  }
+}

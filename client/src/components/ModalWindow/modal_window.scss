@@ -1,0 +1,139 @@
+.modal-window {
+  padding: 0 10px;
+  position: absolute;
+  z-index: 100;
+  top: 50%;
+  right: 50%;
+  transform: translate(50%, -50%);
+  width: 970px;
+  height: 470px;
+  box-shadow: 0 2px 30px 5px rgba(13, 13, 13, 0.04);
+  border-radius: 9px;
+  outline: none;
+  background-color: #fafafa;
+
+  &__title {
+    font-weight: bold;
+    margin-top: 30px;
+    font-size: 22px;
+  }
+
+  &__desc {
+      margin-top: 20px;
+    font-size: 16px;
+  }
+
+  &__btn {
+    z-index: 1000;
+    position: absolute;
+    width: 50px;
+    height: 50px;
+    right: 0;
+    border-radius: 50%;
+    border: orange 1px solid;
+    transform: translate(100%, -100%) rotate(45deg);
+  }
+  &__price {
+    font-size: 20px;
+    font-weight: bold;
+  }
+  &__price2 {
+    margin-top: -5px;
+  }
+}
+
+.Overlay {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background: rgba(0, 0, 0, .05);
+  z-index: 100;
+}
+
+
+.modal-window__btn:after,
+.modal-window__btn:before {
+  z-index: 1000;
+
+  content: "";
+  position: absolute;
+  background: #000;
+}
+
+.modal-window__btn:before {
+  z-index: 1000;
+
+  left: 50%;
+  top: 18px;
+  bottom: 18px;
+  width: 2px;
+  transform: translateX(-50%);
+}
+
+.modal-window__btn:after {
+  z-index: 1000;
+
+  top: 50%;
+  left: 18px;
+  right: 18px;
+  height: 2px;
+  transform: translateY(-50%);
+}
+
+.image-boundary_center {
+  height: 470px;
+  width: 485px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.modal-window__img {
+  max-height: 470px;
+  max-width: 470px;
+}
+
+
+@media (max-width: 1200px) {
+  .Modal {
+    width: 900px;
+  }
+  .modal-window__img {
+    max-height: 400px;
+    max-width: 400px;
+  }
+  .modal-window__btn {
+    position: absolute;
+    width: 50px;
+    height: 50px;
+    top: 70px;
+    right: 70px;
+  }
+}
+
+@media (max-width: 991px) {
+  .Modal {
+    padding: 0 70px;
+    width: 700px;
+  }
+  .image-boundary_center {
+    display: none;
+  }
+}
+
+@media (max-width: 767px) {
+  .Modal {
+    width: 500px;
+  }
+}
+
+
+@media (max-width: 575px) {
+  .Modal {
+    padding: 0 10px;
+    width: 300px;
+    height: 520px;
+  }
+}

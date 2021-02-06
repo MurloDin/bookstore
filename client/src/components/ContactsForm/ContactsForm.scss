@@ -1,0 +1,44 @@
+.contacts-form {
+  width: 100%;
+  margin-top: 50px;
+  &__input-wrapper {
+    display: flex;
+    justify-content: space-between;
+    margin: 40px 0;
+  }
+  &__textarea {
+    padding: 10px 0;
+    width: 100%;
+    height: 150px;
+    outline: none;
+    border: none;
+    border-bottom: rgba(1,1,1,.1) 1px solid;
+    border-top: rgba(1,1,1,.1) 1px solid;
+  }
+  &__input {
+    padding: 10px 0;
+    width: 47%;
+    outline: none;
+    border: none;
+    border-bottom: rgba(1,1,1,.1) 1px solid;
+    border-top: rgba(1,1,1,.1 ) 1px solid;
+  }
+  &__btn {
+    display: block;
+    margin: 0 auto;
+    font-weight: bold;
+    color: white;
+    margin-top: 70px;
+    border: #9577C2 2px solid;
+    background-color: #9577C2;
+    width: 230px;
+    height: 60px;
+    &:hover {
+      transition: .5s;
+      color: #212529;
+      border-color: #212529;
+      background-color: rgba(1,1,1,0);
+    }
+  }
+}
+

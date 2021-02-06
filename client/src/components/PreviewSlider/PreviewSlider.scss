@@ -1,0 +1,33 @@
+.slider-card {
+  &__content-wrapper {
+    padding-top: 30vh;
+  }
+  &__title {
+    text-transform: uppercase;
+    line-height: 120px;
+    font-size: 94px;
+    font-weight: bold;
+    color: white;
+    width: 100%;
+  }
+  &__subtitle {
+    font-size: 34px;
+    font-weight: bold;
+    color: white;
+    width: 100%;
+  }
+  &__btn {
+    font-weight: bold;
+    color: white;
+    margin-top: 40px;
+    border: #9577C2 2px solid;
+    background-color: #9577C2;
+    width: 220px;
+    height: 60px;
+    &:hover {
+      transition: .5s;
+      background-color: rgba(1,1,1,0);
+    }
+  }
+}
+

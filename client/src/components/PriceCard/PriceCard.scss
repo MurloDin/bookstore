@@ -1,0 +1,47 @@
+.price-card {
+  background-color: #F2F2F2;
+  margin: 0 10px;
+  padding: 30px 15px;
+  height: 520px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  &__title-wrapper {
+    margin-top: 20px;
+    text-align: center;
+  }
+  &__title {
+    text-transform: uppercase;
+    font-size: 26px;
+    font-weight: bold;
+  }
+
+  &__price-wrapper {
+    text-align: center;
+  }
+  &__price {
+    font-weight: bold;
+    font-size: 40px;
+  }
+
+  &__desc {
+    text-align: center;
+    font-weight: bold;
+  }
+
+  &__btn {
+    display: block;
+    margin: 0 auto;
+    height: 60px;
+    width: 70%;
+    border: black 2px solid;
+    font-weight: bold;
+    background-color: rgba(0,0,0,0);
+    &:hover {
+      transition: .3s;
+      border: #9577C2;
+      background-color: #9577C2;
+      color: white;
+    }
+  }
+}

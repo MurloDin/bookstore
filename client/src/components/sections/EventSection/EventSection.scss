@@ -1,0 +1,42 @@
+.event-section {
+  display: flex;
+  background: #F2F2F2;
+  &__img {
+    height: 627px;
+    width: 50vw;
+    background: url("pic011.jpg") no-repeat center/cover;
+  }
+  &__content-wrapper {
+    padding-left: 80px;
+    text-align: center;
+    width: 50vw;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: start;
+  }
+  &__content-title {
+    font-size: 54px;
+    font-weight: bold;
+    color: rgba(1,1,1,.8);
+  }
+  &__content-subtitle {
+    font-size: 36px;
+    color: #212529;
+  }
+  &__content-btn {
+    font-weight: bold;
+    color: white;
+    margin-top: 40px;
+    border: #9577C2 2px solid;
+    background-color: #9577C2;
+    width: 230px;
+    height: 60px;
+    &:hover {
+      transition: .5s;
+      color: #212529;
+      border-color: #212529;
+      background-color: rgba(1,1,1,0);
+    }
+  }
+}

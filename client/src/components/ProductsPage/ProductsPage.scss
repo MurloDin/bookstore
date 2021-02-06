@@ -1,0 +1,28 @@
+.products-page {
+  background-color: #EBEBEB;
+  min-height: 100vh;
+  &__wrapper {
+    margin: 50px 0;
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+  }
+  &__basket {
+    margin-top: 20px;
+    text-decoration: none;
+    font-size: 24px;
+  }
+  &__button{
+    background-color: rgba(255,255,255,0);
+    margin-top: 50px;
+    border: #020202 1px solid;
+    width: 150px;
+    height: 50px;
+    &:hover {
+      transition: .6s;
+      background-color: #9577C2;
+      border-color: #9577C2;
+      color: white;
+    }
+  }
+}

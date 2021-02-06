@@ -1,0 +1,46 @@
+@import url("./fonts.css");
+@import url("./bootstrap-grid.min.css");
+@import url("./bootstrap-reboot.min.css");
+
+
+body {
+    margin: 0;
+    font-family: Montserrat;
+    overflow-x: hidden;
+    padding:0;
+
+    /*Avoid flicker on slides transitions for mobile phones #336 */
+    -webkit-tap-highlight-color: rgba(0,0,0,0);
+}
+
+.subtitle {
+    font-size: 14px;
+    font-weight: bold;
+    text-transform: uppercase;
+    color: orange;
+}
+
+.title {
+    color: black;
+    font-size: 26px;
+}
+.word-shadow {
+    z-index: -1;
+    font-weight: bold;
+    font-size: 90px;
+    margin-left: -5px;
+    margin-top: -110px;
+    color: rgba(1,1,1,.1);
+}
+
+.content-wrapper {
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: start;
+}
+
+button, button:active, button:focus {
+    outline: none !important;
+}

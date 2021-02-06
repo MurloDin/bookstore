@@ -1,0 +1,25 @@
+.page-footer {
+  height: 270px;
+  background-color: #020202;
+  &__text {
+    color: #6c757d;
+  }
+  &__list {
+    color: #6c757d;
+  }
+}
+
+
+.center-pos {
+  height: 270px;
+  display: flex;
+  align-items: center;
+}
+
+li {
+  color: #9577C2;
+}
+
+li span {
+  color: #6c757d;
+}
